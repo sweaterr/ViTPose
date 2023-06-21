@@ -7,6 +7,6 @@ docker pull sweaterr/vitpose:latest
 
 
 
-docker run -it --net host -v /home/jklee/repo:/home/jklee/repo --rm sweaterr/vitpose:latest
+docker run --gpus all -it --net host -v /home/jklee/repo:/home/jklee/repo --rm sweaterr/vitpose:latest
 
 ```
