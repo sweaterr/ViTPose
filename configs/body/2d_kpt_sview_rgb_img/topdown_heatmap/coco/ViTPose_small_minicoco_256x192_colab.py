@@ -147,7 +147,7 @@ data = dict(
     test_dataloader=dict(samples_per_gpu=32),
     train=dict(
         type='TopDownCocoDataset',
-        ann_file=f'/content/drive/MyDrive/dataset/minicoco/coco_minitrain_25k/person_keypoints_minitrain2017.json',
+        ann_file=f'/content/drive/MyDrive/dataset/minicoco/person_keypoints_minitrain2017.json',
         img_prefix=f'/content/drive/MyDrive/dataset/minicoco/coco_minitrain_25k/images/train2017/',
         data_cfg=data_cfg,
         pipeline=train_pipeline,
