@@ -139,7 +139,7 @@ val_pipeline = [
 
 test_pipeline = val_pipeline
 
-data_root = '/content/drive/MyDrive/coco'
+data_root = '/content/coco2017'
 data = dict(
     samples_per_gpu=64,
     workers_per_gpu=4,
